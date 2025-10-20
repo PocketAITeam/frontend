@@ -1,0 +1,44 @@
+.hero {
+    padding: 0 !important;
+    position: relative;
+    display: flex;
+    padding: 0 70px !important;
+}
+
+.hero .data {
+    padding: 0 !important;
+    text-align: left;
+    justify-self: baseline;
+    align-self: center;
+}
+.hero .data div {
+    color: #000;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.hero span.highlighted {
+    color: #019cde;
+}
+
+.hero .data p {
+    font-weight: 300;
+    font-size: 28px;
+    color: #464646;
+    line-height: 160%;
+    margin-top: 16px;
+}
+
+.hero .image {
+    align-self: end;
+}
+.hero .image img {
+    width: 100%;
+    transform: translateX(70px);
+    padding: 0 !important;
+}
+
+.badge-container a:first-child {
+    margin-right: 12px;
+}
