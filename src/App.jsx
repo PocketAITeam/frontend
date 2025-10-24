@@ -8,7 +8,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
 function App() {
     return (
-        <div style={{ height: '200vh' }}>
+        <div>
             <Home />
         </div>
     );

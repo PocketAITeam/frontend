@@ -12,7 +12,7 @@ import './Navbar.css';
 
 function NavbarComponent() {
     return (
-        <Navbar expand="lg" className="navbar-custom my-4">
+        <Navbar expand="lg" className="navbar-custom">
             <Container
                 fluid
                 className="d-flex justify-content-between align-items-center"
