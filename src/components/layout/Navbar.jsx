@@ -1,47 +1,41 @@
-import { Navbar, Nav, Container, Button, Dropdown } from 'react-bootstrap';
+import Button from 'react-bootstrap/Button';
+import Container from 'react-bootstrap/Container';
+import Form from 'react-bootstrap/Form';
+import Nav from 'react-bootstrap/Nav';
+import Navbar from 'react-bootstrap/Navbar';
+import NavDropdown from 'react-bootstrap/NavDropdown';
+
+import logo from '../../assets/images/logo.svg';
+import logoPng from '../../assets/images/logo.png';
 
 import './Navbar.css';
 
-import logo from '../../assets/images/logo.svg';
-
 function NavbarComponent() {
     return (
-        <Navbar expand="lg" className="navbar-custom py-3">
-            <Container
-                fluid
-                className="align-items-center justify-content-between"
-            >
-                {/* Logo */}
-                <Navbar.Brand href="#" className="d-flex align-items-center">
-                    <img src={logo} alt="Logo" />
-                    <span className="logo-text">Pocket AI</span>
+        <Navbar expand="lg" className="navbar-custom p-0 my-4">
+            <Container className="d-flex justify-content-between align-items-center p-0">
+                {/* اللوجو */}
+                <Navbar.Brand href="#" className="me-auto">
+                    <img src={logoPng} alt="Pocket AI" />
+                    <span className="logo-text ms-2">Pocket AI</span>
                 </Navbar.Brand>
 
-                {/* Toggle for mobile */}
-                <Navbar.Toggle aria-controls="navbarScroll" />
+                {/* اللينكات */}
+                <Nav className="mx-auto d-none d-lg-flex links">
+                    <Nav.Link href="#action1">Features</Nav.Link>
+                    <Nav.Link href="#action2">How it Works</Nav.Link>
+                    <Nav.Link href="#action3">FAQ</Nav.Link>
+                    <Nav.Link href="#action4">Download</Nav.Link>
+                </Nav>
 
-                {/* Links */}
-                <Navbar.Collapse
-                    id="navbarScroll"
-                    className="justify-content-center"
+                {/* الزرار */}
+                <Button
+                    variant="outline-success"
+                    className="ms-auto language-button"
                 >
-                    <Nav className="navbar-links">
-                        <Nav.Link href="#features">Features</Nav.Link>
-                        <Nav.Link href="#howitworks">How it Works</Nav.Link>
-                        <Nav.Link href="#faq">FAQ</Nav.Link>
-                        <Nav.Link href="#download">Download</Nav.Link>
-                    </Nav>
-                </Navbar.Collapse>
-
-                {/* Language button */}
-                <Dropdown>
-                    <Dropdown.Toggle variant="light" className="lang-btn">
-                        English
-                    </Dropdown.Toggle>
-                    <Dropdown.Menu>
-                        <Dropdown.Item>العربية</Dropdown.Item>
-                    </Dropdown.Menu>
-                </Dropdown>
+                    English
+                    <i className="fas fa-chevron-down ms-1"></i>
+                </Button>
             </Container>
         </Navbar>
     );

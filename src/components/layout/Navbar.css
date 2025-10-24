@@ -1,37 +1,38 @@
-.navbar-custom .logo-text {
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Poppins', sans-serif;
+.navbar-custom {
     color: #3d3d3d;
-    margin-left: 16px;
 }
 
-.navbar-custom .navbar-links {
-    display: flex;
-    gap: 32px; /* المسافة بين اللينكات */
-    font-size: 14px;
-    font-weight: 400;
-    width: 369px;
-    justify-content: space-between;
+.navbar-custom img {
+    width: 2.813rem;
+    height: 3.563rem;
 }
 
-.navbar-custom .navbar-links a {
-    color: #3d3d3d !important;
-    text-decoration: none;
-    padding: 0 !important;
+.navbar-custom .logo-text {
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-left: 0.5rem;
+    color: #3d3d3d;
 }
 
-.navbar-custom .navbar-links a:hover {
-    color: #00a8e8 !important;
+.navbar-custom .links {
+    font-size: 0.875rem;
 }
 
-.lang-btn {
-    border-radius: 20px !important;
-    padding: 6px 16px !important;
-    font-family: Poppins;
-    font-weight: 400;
-    font-size: 16px;
-    color: #3d3d3d !important;
-    background-color: #f4f4f4 !important;
-    border: 1px solid #ececec !important;
+.navbar-custom .links a {
+    padding: 0;
+}
+
+.navbar-custom .language-button {
+    border-radius: 24px;
+    font-size: 1rem;
+    border: 1px solid #ececec;
+    background-color: #f4f4f4;
+    padding: 0.4rem 1.25rem;
+    color: #3d3d3d;
+}
+
+.navbar-custom .language-button:hover {
+    background-color: #e0e0e0;
+    color: #3d3d3d;
+    border: 1px solid #e0e0e0;
 }
