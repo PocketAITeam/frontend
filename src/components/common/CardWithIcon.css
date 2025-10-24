@@ -1,0 +1,37 @@
+.card-with-icon {
+    display: flex;
+    flex-direction: column;
+    /* width: 24.875rem; */
+    justify-content: center;
+    align-items: start;
+    /* height: 12.25rem; */
+    background-color: #f0efef;
+    border-radius: 1.5rem;
+    border: 5px solid #fff;
+    box-shadow: 0px 4px 12px 0px #0000001a;
+    text-align: left;
+    padding: 1.6rem 1.2rem;
+}
+
+.card-with-icon .icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.card-with-icon h3 {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.card-with-icon p {
+    font-weight: 400;
+    font-size: 16px;
+    color: #656565;
+    margin: 0;
+}
