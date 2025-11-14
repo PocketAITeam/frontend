@@ -49,7 +49,11 @@ const Feature = () => {
             <Title sectionTitle="Why it’s great" />
             <Row className="g-4 justify-content-center">
                 {data.map((item) => (
-                    <Col md={4} className="" key={item.id}>
+                    <Col
+                        md={4}
+                        xs={item.id === 2 || item.id === 3 ? 6 : 12}
+                        key={item.id}
+                    >
                         <CardWithIcon
                             icon={item.icon}
                             title={item.title}
