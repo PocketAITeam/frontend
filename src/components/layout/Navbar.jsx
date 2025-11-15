@@ -1,8 +1,9 @@
 import React from 'react';
 import { Button, Dropdown, Space } from 'antd';
+import { ChevronDown } from 'lucide-react';
 
 import logo from '../../assets/images/logo.png';
-import { ChevronDown } from 'lucide-react';
+import menu from '../../assets/icons/menu.svg';
 
 const Navbar = () => {
     const items = [
@@ -39,7 +40,7 @@ const Navbar = () => {
                         <img src={logo} alt="" />
                         <h1 className="text-xl font-bold ml-4">Pocket AI</h1>
                     </div>
-                    <div className="font-normal text-sm">
+                    <div className="font-normal text-sm hidden sm:block">
                         <a href="/" className="px-3">
                             Features
                         </a>
@@ -53,7 +54,7 @@ const Navbar = () => {
                             Download
                         </a>
                     </div>
-                    <div>
+                    <div className="hidden sm:block">
                         <Space wrap>
                             <Dropdown
                                 menu={{ items }}
@@ -66,6 +67,11 @@ const Navbar = () => {
                                 </button>
                             </Dropdown>
                         </Space>
+                    </div>
+                    <div className="block sm:hidden">
+                        <button>
+                            <img src={menu} alt="Menu" />
+                        </button>
                     </div>
                 </div>
             </nav>
