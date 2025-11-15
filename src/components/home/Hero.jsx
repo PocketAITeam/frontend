@@ -6,11 +6,13 @@ import appleText from '../../assets/icons/apple_text.svg';
 import googleIcon from '../../assets/icons/google.svg';
 import googleText from '../../assets/icons/google_text.svg';
 const Hero = () => {
+    const [heroHeight, setHeroHeight] = useState('100vh');
+
     return (
-        <div className="w-full flex items-center justify-center">
+        <div className="w-full flex items-center justify-center h-[calc(100vh-141px)]">
             <div className="w-full max-w-7xl px-4 grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center gap-10">
                 {/* النص */}
-                <div className="flex flex-col justify-center text-left">
+                <div className="flex flex-col justify-center items-center sm:items-start text-left">
                     <h1 className="text-4xl md:text-[64px] font-bold mb-4">
                         Log expenses{' '}
                         <span className="text-blue-500">by voice.</span>
@@ -44,13 +46,13 @@ const Hero = () => {
                 </div>
 
                 {/* الصورة */}
-                <div className="flex justify-center md:justify-end">
+                {/* <div className="flex justify-center md:justify-end">
                     <img
                         src={heroImage}
                         alt="Hero"
                         className="w-full max-w-md object-contain"
                     />
-                </div>
+                </div> */}
             </div>
         </div>
     );
