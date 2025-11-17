@@ -35,7 +35,7 @@ const Navbar = () => {
     return (
         <div>
             <nav className="my-10">
-                <div className="container mx-auto flex justify-between items-center text-[#3d3d3d]">
+                <div className="container mx-auto flex justify-between items-center text-[#3d3d3d]  px-9">
                     <div className="navbar-logo flex items-center">
                         <img src={logo} alt="" />
                         <h1 className="text-xl font-bold ml-4">Pocket AI</h1>
