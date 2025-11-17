@@ -3,7 +3,7 @@ import React from 'react';
 const CardWithIcon = ({ icon, title, description }) => {
     return (
         <div
-            className="flex flex-col items-start border-[5px] border-white rounded-3xl py-10 pl-7 max-w-sm w-full shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)]"
+            className="flex flex-col items-start border-[5px] border-white rounded-3xl py-9 pl-7 max-w-sm w-full shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)]"
             style={{
                 background: 'linear-gradient(135deg, #F5F5F5 0%, #EFEDED 100%)',
             }}
