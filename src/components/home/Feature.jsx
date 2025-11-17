@@ -2,6 +2,7 @@ import React from 'react';
 import Title from '../common/Title';
 import CardWithIcon from '../common/CardWithIcon';
 
+import underline from '../../assets/images/underline-lg.svg';
 import icon1 from '../../assets/icons/microphone.svg';
 import icon2 from '../../assets/icons/edit.svg';
 import icon3 from '../../assets/icons/empty-wallet.svg';
@@ -43,7 +44,7 @@ const Feature = () => {
     ];
     return (
         <div>
-            <Title sectionTitle="Why it’s great" />
+            <Title sectionTitle="Why it’s great" underline={underline} />
 
             <div className="w-full max-w-7xl px-4 flex flex-wrap justify-center gap-5 mb-20 mx-auto">
                 {data.map((item) => (
