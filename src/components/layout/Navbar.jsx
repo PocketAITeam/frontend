@@ -10,11 +10,7 @@ const Navbar = () => {
         {
             key: '1',
             label: (
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.antgroup.com"
-                >
+                <a rel="noopener noreferrer" href="/">
                     English
                 </a>
             ),
@@ -22,11 +18,7 @@ const Navbar = () => {
         {
             key: '2',
             label: (
-                <a
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    href="https://www.aliyun.com"
-                >
+                <a target="_blank" rel="noopener noreferrer" disabled>
                     عربي
                 </a>
             ),
