@@ -9,7 +9,7 @@ const Hero = () => {
     const [heroHeight, setHeroHeight] = useState('100vh');
 
     return (
-        <div className="w-full flex items-center justify-center h-[calc(100vh-141px)]">
+        <div className="container mx-auto w-full flex items-center justify-between h-[calc(100vh-141px)]">
             <div className="w-full max-w-7xl px-4 grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center gap-10">
                 {/* النص */}
                 <div className="flex flex-col justify-center items-center sm:items-start text-left">
