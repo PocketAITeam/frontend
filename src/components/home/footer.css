@@ -1,0 +1,8 @@
+footer {
+    margin-top: 10px;
+    width: 100%;
+    min-height: 340px;
+    background-image: url('../../assets/images/footer-bg.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
