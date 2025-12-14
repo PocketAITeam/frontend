@@ -46,7 +46,7 @@ const Feature = () => {
         <div>
             <Title sectionTitle="Why it’s great" underline={underline} />
 
-            <div className="w-full px-4 flex flex-wrap justify-center gap-5 mb-20 mx-auto">
+            <div className="w-full px-4 flex flex-wrap justify-center gap-5 mb-4 mx-auto">
                 {data.map((item) => (
                     <CardWithIcon
                         key={item.id}
