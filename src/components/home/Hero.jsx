@@ -12,12 +12,12 @@ const Hero = () => {
                 <div className="w-full max-w-7xl px-4 grid grid-cols-1 md:grid-cols-[2fr_1fr] items-center gap-10">
                     {/* النص */}
                     <div className="flex flex-col justify-center items-center sm:items-start text-left">
-                        <h1 className="text-4xl md:text-[64px] font-bold mb-4">
+                        <h1 className="text-4xl md:text-[64px] font-bold mb-4 text-black">
                             Log expenses{' '}
                             <span className="text-blue-500">by voice.</span>
                         </h1>
 
-                        <h4 className="text-4xl md:text-[64px] mb-4 font-bold">
+                        <h4 className="text-4xl md:text-[64px] mb-4 font-bold text-black">
                             Simple, fast, accurate.
                         </h4>
 
