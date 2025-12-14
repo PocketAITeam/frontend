@@ -48,16 +48,3 @@ body {
 .read-the-docs {
     color: #888;
 }
-
-.card-with-middle-icon::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-image: var(--before-img);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    pointer-events: none;
-    width: 70px;
-    left: -94px;
-}

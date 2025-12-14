@@ -8,6 +8,8 @@ import recordImage from '../../assets/icons/rec.png';
 import recordTimeImage from '../../assets/icons/rec_time.png';
 import transactionsImage from '../../assets/icons/transactions.png';
 
+import './functionality.css';
+
 const Functionality = () => {
     const data = [
         {
