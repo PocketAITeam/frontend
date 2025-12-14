@@ -14,7 +14,7 @@ const Hero = () => {
                     <div className="flex flex-col justify-center items-center sm:items-start text-left">
                         <h1 className="text-4xl md:text-[64px] font-bold mb-4 text-black">
                             Log expenses{' '}
-                            <span className="text-blue-500">by voice.</span>
+                            <span className="text-[#019CDE]">by voice.</span>
                         </h1>
 
                         <h4 className="text-4xl md:text-[64px] mb-4 font-bold text-black">
