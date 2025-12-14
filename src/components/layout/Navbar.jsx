@@ -33,16 +33,28 @@ const Navbar = () => {
                         <h1 className="text-xl font-bold ml-4">Pocket AI</h1>
                     </div>
                     <div className="font-normal text-sm hidden sm:block">
-                        <a href="/" className="px-3">
+                        <a
+                            href="/"
+                            className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
+                        >
                             Features
                         </a>
-                        <a href="/about" className="px-3">
+                        <a
+                            href="/about"
+                            className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
+                        >
                             How it Works
                         </a>
-                        <a href="/contact" className="px-3">
+                        <a
+                            href="/contact"
+                            className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
+                        >
                             FAQ
                         </a>
-                        <a href="/contact" className="px-3">
+                        <a
+                            href="/contact"
+                            className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
+                        >
                             Download
                         </a>
                     </div>
