@@ -1,4 +1,8 @@
 @import 'tailwindcss';
+html {
+    color-scheme: light;
+}
+
 body {
     box-sizing: border-box;
     margin: 0;
