@@ -3,19 +3,18 @@ import React from 'react';
 const CardWithMiddleIcon = ({ id, img, step, description, angle, arrow }) => {
     return (
         <div
-            className="
+            className={`
                 card-with-middle-icon
                 relative
                 flex flex-col items-stretch
                 border-[5px] w-[260px] h-[260px]
                 border-white rounded-3xl max-w-sm
                 shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)]
-                p-4
-            "
+                p-4 ${id === 2 ? '' : 'sm:top-[18px]'}
+            `}
             style={{
                 background: 'linear-gradient(135deg, #F5F5F5 0%, #EFEDED 100%)',
                 transform: `rotate(${angle}deg)`,
-                top: id === 2 ? '0px' : '18px',
                 '--before-img': arrow ? `url(${arrow})` : 'none',
             }}
         >

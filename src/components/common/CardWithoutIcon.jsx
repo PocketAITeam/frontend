@@ -3,7 +3,7 @@ import React from 'react';
 const CardWithoutIcon = ({ title, description }) => {
     return (
         <div
-            className="flex flex-col items-start border-[5px] border-white rounded-3xl py-7 pl-7 max-w-sm w-full shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)] text-left"
+            className="flex flex-col items-start border-[5px] border-white rounded-3xl py-7 px-7 sm:max-w-sm w-full shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)] text-left"
             style={{
                 background: 'linear-gradient(135deg, #F5F5F5 0%, #EFEDED 100%)',
             }}
