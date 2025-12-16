@@ -8,7 +8,7 @@ import googleText from '../../assets/icons/google_text.svg';
 const Hero = () => {
     return (
         <div className="flex justify-between flex-wrap max-w-7xl mx-auto md:px-14">
-            <div className="flex flex-col justify-center items-center md:items-start md:text-left text-center lg:w-2/3 w-full">
+            <div className="flex flex-col justify-center items-center md:items-start md:text-left text-center lg:w-2/3 w-full mt-12 md:mt-0">
                 <h1 className="lg:text-6xl sm:text-5xl text-2xl sm:leading-19 leading-10 font-bold md:mb-4 mb-1 text-black">
                     Track expenses{' '}
                     <span className="text-[#019CDE]">by voice.</span>
