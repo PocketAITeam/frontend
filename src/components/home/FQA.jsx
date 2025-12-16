@@ -26,7 +26,7 @@ const FQA = () => {
         <div>
             <Title sectionTitle="FQA" underline={underline} />
 
-            <div className="w-full px-4 flex flex-wrap justify-center gap-5 mb-20 mx-auto">
+            <div className="w-full md:px-4 px-12 flex flex-wrap justify-center gap-5 mb-20 mx-auto">
                 {data.map((item) => (
                     <CardWithoutIcon
                         key={item.id}
