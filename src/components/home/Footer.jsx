@@ -12,59 +12,6 @@ import './footer.css';
 import { Facebook, Youtube } from 'lucide-react';
 
 const Footer = () => {
-    // return (
-    //     <>
-    //         <footer className="flex flex-col justify-center">
-    //             <div className="flex flex-col">
-    //                 <div className="flex justify-evenly">
-    //                     <div className="self-end">
-    //                         <img src={footerLogo} alt="Pocket AI" />
-    //                     </div>
-    //                     <div className="flex flex-col items-start">
-    //                         <span className="text-white font-semibold text-xl mb-6">
-    //                             Legal links
-    //                         </span>
-    //                         <ul className="text-[#DCDCDC] text-base font-normal text-left">
-    //                             <li className="mb-6">Privacy Policy</li>
-    //                             <li>Terms of Use</li>
-    //                         </ul>
-    //                     </div>
-    //                     <div className="flex flex-col items-start">
-    //                         <span className="text-white font-semibold text-xl mb-6">
-    //                             Get In Touch
-    //                         </span>
-    //                         <div className="flex text-[#DCDCDC] text-base font-normal gap-2.5">
-    //                             <div>
-    //                                 <img src={emailIcon} alt="email" />
-    //                             </div>
-    //                             <a href="mailto:support@pocket-ai.app">
-    //                                 support@pocket-ai.app
-    //                             </a>
-    //                         </div>
-    //                     </div>
-    //                     <div className="flex flex-col items-start">
-    //                         <div className="flex">
-    //                             <a
-    //                                 href=""
-    //                                 className="w-10 h-10 border border-white rounded-full flex items-center justify-center mr-6"
-    //                             >
-    //                                 <img src={youtubeIcon} alt="" />
-    //                             </a>
-    //                             <a
-    //                                 href=""
-    //                                 className="w-10 h-10 border border-white rounded-full flex items-center justify-center"
-    //                             >
-    //                                 <img src={tiktokIcon} alt="" />
-    //                             </a>
-    //                         </div>
-
-    //                     </div>
-    //                 </div>
-    //             </div>
-    //         </footer>
-    //
-    //     </>
-    // );
     return (
         <footer className="">
             <div className="h-[340px] md:h-[410px] flex md:flex-row flex-col-reverse md:justify-between md:items-center md:space-x-10 lg:space-x-30 justify-center max-w-5xl mx-auto sm:px-6 px-3">
