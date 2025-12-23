@@ -1,6 +1,7 @@
 @import 'tailwindcss';
 html {
     color-scheme: light;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -51,4 +52,11 @@ body {
 
 .read-the-docs {
     color: #888;
+}
+
+#features,
+#functionality,
+#faq,
+#download {
+    scroll-margin-top: 101px;
 }

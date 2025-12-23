@@ -43,7 +43,7 @@ const Feature = () => {
         },
     ];
     return (
-        <div id="features">
+        <section id="features">
             <Title sectionTitle="Why it’s great" underline={underline} />
 
             <div className="w-full md:px-4 px-12 max-w-7xl flex flex-wrap justify-center gap-5 mb-4 mx-auto">
@@ -56,7 +56,7 @@ const Feature = () => {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

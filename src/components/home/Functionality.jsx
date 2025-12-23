@@ -38,7 +38,7 @@ const Functionality = () => {
         },
     ];
     return (
-        <div id="functionality">
+        <section id="functionality">
             <Title sectionTitle="How it works" underline={underline} />
 
             <div className="w-full px-4 flex flex-wrap justify-center gap-28 mb-4">
@@ -54,7 +54,7 @@ const Functionality = () => {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

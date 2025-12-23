@@ -23,7 +23,7 @@ const FQA = () => {
         },
     ];
     return (
-        <div id="faq">
+        <section id="faq">
             <Title sectionTitle="FAQ" underline={underline} />
 
             <div className="w-full md:px-4 px-12 flex flex-wrap justify-center gap-5 mb-20 mx-auto">
@@ -35,7 +35,7 @@ const FQA = () => {
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

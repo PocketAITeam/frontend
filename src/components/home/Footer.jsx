@@ -9,11 +9,10 @@ import googleText from '../../assets/icons/google_text_black.svg';
 import appleIcon from '../../assets/icons/apple_black.svg';
 import appleText from '../../assets/icons/apple_text_black.svg';
 import './footer.css';
-import { Facebook, Youtube } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer id="download">
+        <section id="download">
             <div className="h-[340px] md:h-[410px] flex md:flex-row flex-col-reverse md:justify-between md:items-center md:space-x-10 lg:space-x-30 justify-center max-w-5xl mx-auto sm:px-6 px-3">
                 <div className="flex md:flex-1 justify-between mt-8 md:mt-0">
                     <div className="flex items-center">
@@ -112,10 +111,10 @@ const Footer = () => {
             </div>
             <div className="pb-5">
                 <span className="text-[#019CDE] text-sm font-normal">
-                    All Rights Reserved to © 2025 Pocket.
+                    All Rights Reserved to © 2026 Pocket.
                 </span>
             </div>
-        </footer>
+        </section>
     );
 };
 
