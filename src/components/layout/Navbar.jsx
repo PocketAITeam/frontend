@@ -8,17 +8,29 @@ const NavLink = ({ href, label, activeSection, onClick }) => {
     const id = href.replace('#', '');
     const isActive = activeSection === id;
 
+    const handleClick = (e) => {
+        e.preventDefault();
+
+        const section = document.getElementById(id);
+        if (section) {
+            section.scrollIntoView({
+                behavior: 'smooth',
+                block: 'start',
+            });
+        }
+
+        onClick?.();
+    };
+
     return (
         <a
             href={href}
-            onClick={onClick}
-            className={`px-3 transition-all duration-200
-        ${
-            isActive
-                ? 'text-[#019CDE] font-semibold'
-                : 'text-[#3D3D3D] hover:text-[#019CDE]'
-        }
-      `}
+            onClick={handleClick}
+            className={`px-3 transition-all duration-200 ${
+                isActive
+                    ? 'text-[#019CDE] font-semibold'
+                    : 'text-[#3D3D3D] hover:text-[#019CDE]'
+            }`}
         >
             {label}
         </a>
