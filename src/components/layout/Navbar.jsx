@@ -34,30 +34,32 @@ const Navbar = () => {
         <nav className="sticky top-0 z-50 py-5 bg-[#fcfcfc] backdrop-blur-lg">
             <div className="container relative mx-auto flex justify-between items-center text-[#3d3d3d] px-9">
                 <div className="navbar-logo flex items-center">
-                    <img src={logo} alt="" />
-                    <h1 className="text-xl font-bold ml-4">Pocket AI</h1>
+                    <a href="/" className="flex items-center">
+                        <img src={logo} alt="" />
+                        <h1 className="text-xl font-bold ml-4">Pocket AI</h1>
+                    </a>
                 </div>
                 <div className="font-normal text-sm hidden md:block">
                     <a
-                        href="/"
+                        href="#features"
                         className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                     >
                         Features
                     </a>
                     <a
-                        href="/about"
+                        href="#functionality"
                         className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                     >
                         How it Works
                     </a>
                     <a
-                        href="/contact"
+                        href="#faq"
                         className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                     >
                         FAQ
                     </a>
                     <a
-                        href="/contact"
+                        href="#download"
                         className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                     >
                         Download
@@ -93,7 +95,7 @@ const Navbar = () => {
                     <ul className="flex flex-col space-y-8 md:hidden font-medium">
                         <li>
                             <a
-                                href="/"
+                                href="#features"
                                 className="px-3 text-[#3D3D3D] focus:text-[#019CDE] transition-all duration-200"
                             >
                                 Features
@@ -101,7 +103,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="/about"
+                                href="#functionality"
                                 className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                             >
                                 How it Works
@@ -109,7 +111,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="/contact"
+                                href="#faq"
                                 className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                             >
                                 FAQ
@@ -117,7 +119,7 @@ const Navbar = () => {
                         </li>
                         <li>
                             <a
-                                href="/contact"
+                                href="#download"
                                 className="px-3 text-[#3D3D3D] hover:text-[#019CDE] transition-all duration-200"
                             >
                                 Download

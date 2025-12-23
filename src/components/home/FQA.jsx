@@ -23,8 +23,8 @@ const FQA = () => {
         },
     ];
     return (
-        <div>
-            <Title sectionTitle="FQA" underline={underline} />
+        <div id="faq">
+            <Title sectionTitle="FAQ" underline={underline} />
 
             <div className="w-full md:px-4 px-12 flex flex-wrap justify-center gap-5 mb-20 mx-auto">
                 {data.map((item) => (

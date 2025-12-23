@@ -13,7 +13,7 @@ import { Facebook, Youtube } from 'lucide-react';
 
 const Footer = () => {
     return (
-        <footer className="">
+        <footer id="download">
             <div className="h-[340px] md:h-[410px] flex md:flex-row flex-col-reverse md:justify-between md:items-center md:space-x-10 lg:space-x-30 justify-center max-w-5xl mx-auto sm:px-6 px-3">
                 <div className="flex md:flex-1 justify-between mt-8 md:mt-0">
                     <div className="flex items-center">
@@ -28,8 +28,16 @@ const Footer = () => {
                             Legal links
                         </span>
                         <ul className="text-[#DCDCDC] text-left">
-                            <li className="md:mb-6 mb-3">Privacy Policy</li>
-                            <li>Terms of Use</li>
+                            <li className="md:mb-6 mb-3">
+                                <a target="_blank" href="privacy.html">
+                                    Privacy Policy
+                                </a>
+                            </li>
+                            <li>
+                                <a target="_blank" href="terms.html">
+                                    Terms of Use
+                                </a>
+                            </li>
                         </ul>
                     </div>
                     <div className="flex flex-col md:space-y-6 space-y-3 sm:text-base text-sm  text-left">
@@ -53,13 +61,14 @@ const Footer = () => {
                 <div className="flex flex-col space-y-6">
                     <div className="flex space-x-5">
                         <a
-                            href="#"
+                            target="_blank"
+                            href="https://www.tiktok.com/@iamfadlabdelaziz"
                             className="flex justify-center items-center border border-white w-10 h-10 rounded-full"
                         >
                             <img src={tiktokIcon} alt="" />
                         </a>
                         <a
-                            href="#"
+                            href="https://youtube.com/@iamfadl"
                             className="flex justify-center items-center border border-white w-10 h-10 rounded-full"
                         >
                             <img src={youtubeIcon} alt="" />
@@ -67,7 +76,8 @@ const Footer = () => {
                     </div>
                     <div className="flex space-x-3 items-center w-full">
                         <a
-                            href="#"
+                            target="_blank"
+                            href="https://apps.apple.com/us/app/pocket-ai-money-manager/id6751238801"
                             className="bg-[#F4F4F4] text-[#090909] px-4 py-3 flex items-center space-x-2 border-[3px] border-white lg:rounded-3xl rounded-[20px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)]"
                         >
                             <img
@@ -82,7 +92,8 @@ const Footer = () => {
                             />
                         </a>
                         <a
-                            href="#"
+                            target="_blank"
+                            href="https://play.google.com/store/apps/details?id=com.startix.pocket"
                             className="bg-[#F4F4F4] text-[#090909] px-4 py-3 flex items-center space-x-2 border-[3px] border-white lg:rounded-3xl rounded-[20px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)]"
                         >
                             <img

@@ -25,7 +25,8 @@ const Hero = () => {
 
                 <div className="flex space-x-3">
                     <a
-                        href="#"
+                        target="_blank"
+                        href="https://apps.apple.com/us/app/pocket-ai-money-manager/id6751238801"
                         className="bg-[#292929] text-white flex items-center space-x-2 border-[3px] border-[#292929] sm:rounded-3xl rounded-[20px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)] px-4 py-3"
                     >
                         <img
@@ -40,7 +41,8 @@ const Hero = () => {
                         />
                     </a>
                     <a
-                        href="#"
+                        target="_blank"
+                        href="https://play.google.com/store/apps/details?id=com.startix.pocket"
                         className="bg-[#292929] text-white flex items-center space-x-2 border-[3px] border-[#292929] sm:rounded-3xl rounded-[20px] shadow-[0px_4px_12px_0px_rgba(0,0,0,0.1)] px-4 py-3"
                     >
                         <img
