@@ -26,7 +26,7 @@ const Functionality = () => {
             step: 'Step 2',
             description: 'Talk....',
             angle: 0,
-            arrow: '/images/arrow.svg',
+            arrow: 'public/images/arrow.svg',
         },
         {
             id: 3,
@@ -34,7 +34,7 @@ const Functionality = () => {
             step: 'Step 3',
             description: 'See it in your history',
             angle: 6.02,
-            arrow: '/images/arrow2.svg',
+            arrow: 'public/images/arrow2.svg',
         },
     ];
     return (
